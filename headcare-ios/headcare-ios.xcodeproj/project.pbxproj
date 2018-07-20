@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C3B4FC2101C60E0032917B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B4FB2101C60E0032917B /* AppDelegate.m */; };
+		04C3B4FF2101C60E0032917B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B4FE2101C60E0032917B /* FirstViewController.m */; };
+		04C3B5022101C60E0032917B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B5012101C60E0032917B /* SecondViewController.m */; };
+		04C3B5052101C60E0032917B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C3B5032101C60E0032917B /* Main.storyboard */; };
+		04C3B5072101C60F0032917B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C3B5062101C60F0032917B /* Assets.xcassets */; };
+		04C3B50A2101C60F0032917B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C3B5082101C60F0032917B /* LaunchScreen.storyboard */; };
+		04C3B50D2101C60F0032917B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B50C2101C60F0032917B /* main.m */; };
+		04C3B5172101C6100032917B /* headcare_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B5162101C6100032917B /* headcare_iosTests.m */; };
+		04C3B5222101C6100032917B /* headcare_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B5212101C6100032917B /* headcare_iosUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C3B5132101C6100032917B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C3B4EF2101C60E0032917B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C3B4F62101C60E0032917B;
+			remoteInfo = "headcare-ios";
+		};
+		04C3B51E2101C6100032917B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C3B4EF2101C60E0032917B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C3B4F62101C60E0032917B;
+			remoteInfo = "headcare-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C3B4F72101C60E0032917B /* headcare-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "headcare-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C3B4FA2101C60E0032917B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C3B4FB2101C60E0032917B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C3B4FD2101C60E0032917B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		04C3B4FE2101C60E0032917B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		04C3B5002101C60E0032917B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		04C3B5012101C60E0032917B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		04C3B5042101C60E0032917B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C3B5062101C60F0032917B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C3B5092101C60F0032917B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C3B50B2101C60F0032917B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C3B50C2101C60F0032917B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C3B5122101C6100032917B /* headcare-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "headcare-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C3B5162101C6100032917B /* headcare_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = headcare_iosTests.m; sourceTree = "<group>"; };
+		04C3B5182101C6100032917B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C3B51D2101C6100032917B /* headcare-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "headcare-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C3B5212101C6100032917B /* headcare_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = headcare_iosUITests.m; sourceTree = "<group>"; };
+		04C3B5232101C6100032917B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C3B4F42101C60E0032917B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C3B50F2101C6100032917B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C3B51A2101C6100032917B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C3B4EE2101C60E0032917B = {
+			isa = PBXGroup;
+			children = (
+				04C3B4F92101C60E0032917B /* headcare-ios */,
+				04C3B5152101C6100032917B /* headcare-iosTests */,
+				04C3B5202101C6100032917B /* headcare-iosUITests */,
+				04C3B4F82101C60E0032917B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C3B4F82101C60E0032917B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C3B4F72101C60E0032917B /* headcare-ios.app */,
+				04C3B5122101C6100032917B /* headcare-iosTests.xctest */,
+				04C3B51D2101C6100032917B /* headcare-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C3B4F92101C60E0032917B /* headcare-ios */ = {
+			isa = PBXGroup;
+			children = (
+				04C3B4FA2101C60E0032917B /* AppDelegate.h */,
+				04C3B4FB2101C60E0032917B /* AppDelegate.m */,
+				04C3B4FD2101C60E0032917B /* FirstViewController.h */,
+				04C3B4FE2101C60E0032917B /* FirstViewController.m */,
+				04C3B5002101C60E0032917B /* SecondViewController.h */,
+				04C3B5012101C60E0032917B /* SecondViewController.m */,
+				04C3B5032101C60E0032917B /* Main.storyboard */,
+				04C3B5062101C60F0032917B /* Assets.xcassets */,
+				04C3B5082101C60F0032917B /* LaunchScreen.storyboard */,
+				04C3B50B2101C60F0032917B /* Info.plist */,
+				04C3B50C2101C60F0032917B /* main.m */,
+			);
+			path = "headcare-ios";
+			sourceTree = "<group>";
+		};
+		04C3B5152101C6100032917B /* headcare-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C3B5162101C6100032917B /* headcare_iosTests.m */,
+				04C3B5182101C6100032917B /* Info.plist */,
+			);
+			path = "headcare-iosTests";
+			sourceTree = "<group>";
+		};
+		04C3B5202101C6100032917B /* headcare-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C3B5212101C6100032917B /* headcare_iosUITests.m */,
+				04C3B5232101C6100032917B /* Info.plist */,
+			);
+			path = "headcare-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C3B4F62101C60E0032917B /* headcare-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C3B5262101C6100032917B /* Build configuration list for PBXNativeTarget "headcare-ios" */;
+			buildPhases = (
+				04C3B4F32101C60E0032917B /* Sources */,
+				04C3B4F42101C60E0032917B /* Frameworks */,
+				04C3B4F52101C60E0032917B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "headcare-ios";
+			productName = "headcare-ios";
+			productReference = 04C3B4F72101C60E0032917B /* headcare-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C3B5112101C6100032917B /* headcare-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C3B5292101C6100032917B /* Build configuration list for PBXNativeTarget "headcare-iosTests" */;
+			buildPhases = (
+				04C3B50E2101C6100032917B /* Sources */,
+				04C3B50F2101C6100032917B /* Frameworks */,
+				04C3B5102101C6100032917B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C3B5142101C6100032917B /* PBXTargetDependency */,
+			);
+			name = "headcare-iosTests";
+			productName = "headcare-iosTests";
+			productReference = 04C3B5122101C6100032917B /* headcare-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C3B51C2101C6100032917B /* headcare-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C3B52C2101C6100032917B /* Build configuration list for PBXNativeTarget "headcare-iosUITests" */;
+			buildPhases = (
+				04C3B5192101C6100032917B /* Sources */,
+				04C3B51A2101C6100032917B /* Frameworks */,
+				04C3B51B2101C6100032917B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C3B51F2101C6100032917B /* PBXTargetDependency */,
+			);
+			name = "headcare-iosUITests";
+			productName = "headcare-iosUITests";
+			productReference = 04C3B51D2101C6100032917B /* headcare-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C3B4EF2101C60E0032917B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04C3B4F62101C60E0032917B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					04C3B5112101C6100032917B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04C3B4F62101C60E0032917B;
+					};
+					04C3B51C2101C6100032917B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04C3B4F62101C60E0032917B;
+					};
+				};
+			};
+			buildConfigurationList = 04C3B4F22101C60E0032917B /* Build configuration list for PBXProject "headcare-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C3B4EE2101C60E0032917B;
+			productRefGroup = 04C3B4F82101C60E0032917B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C3B4F62101C60E0032917B /* headcare-ios */,
+				04C3B5112101C6100032917B /* headcare-iosTests */,
+				04C3B51C2101C6100032917B /* headcare-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C3B4F52101C60E0032917B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C3B50A2101C60F0032917B /* LaunchScreen.storyboard in Resources */,
+				04C3B5072101C60F0032917B /* Assets.xcassets in Resources */,
+				04C3B5052101C60E0032917B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C3B5102101C6100032917B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C3B51B2101C6100032917B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C3B4F32101C60E0032917B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C3B5022101C60E0032917B /* SecondViewController.m in Sources */,
+				04C3B4FC2101C60E0032917B /* AppDelegate.m in Sources */,
+				04C3B50D2101C60F0032917B /* main.m in Sources */,
+				04C3B4FF2101C60E0032917B /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C3B50E2101C6100032917B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C3B5172101C6100032917B /* headcare_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C3B5192101C6100032917B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C3B5222101C6100032917B /* headcare_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C3B5142101C6100032917B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C3B4F62101C60E0032917B /* headcare-ios */;
+			targetProxy = 04C3B5132101C6100032917B /* PBXContainerItemProxy */;
+		};
+		04C3B51F2101C6100032917B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C3B4F62101C60E0032917B /* headcare-ios */;
+			targetProxy = 04C3B51E2101C6100032917B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C3B5032101C60E0032917B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C3B5042101C60E0032917B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C3B5082101C60F0032917B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C3B5092101C60F0032917B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C3B5242101C6100032917B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04C3B5252101C6100032917B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C3B5272101C6100032917B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "headcare-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "con.headcare-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C3B5282101C6100032917B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "headcare-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "con.headcare-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04C3B52A2101C6100032917B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "headcare-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "con.headcare-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/headcare-ios.app/headcare-ios";
+			};
+			name = Debug;
+		};
+		04C3B52B2101C6100032917B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "headcare-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "con.headcare-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/headcare-ios.app/headcare-ios";
+			};
+			name = Release;
+		};
+		04C3B52D2101C6100032917B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "headcare-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "con.headcare-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "headcare-ios";
+			};
+			name = Debug;
+		};
+		04C3B52E2101C6100032917B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "headcare-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "con.headcare-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "headcare-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C3B4F22101C60E0032917B /* Build configuration list for PBXProject "headcare-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C3B5242101C6100032917B /* Debug */,
+				04C3B5252101C6100032917B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C3B5262101C6100032917B /* Build configuration list for PBXNativeTarget "headcare-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C3B5272101C6100032917B /* Debug */,
+				04C3B5282101C6100032917B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C3B5292101C6100032917B /* Build configuration list for PBXNativeTarget "headcare-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C3B52A2101C6100032917B /* Debug */,
+				04C3B52B2101C6100032917B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C3B52C2101C6100032917B /* Build configuration list for PBXNativeTarget "headcare-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C3B52D2101C6100032917B /* Debug */,
+				04C3B52E2101C6100032917B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C3B4EF2101C60E0032917B /* Project object */;
+}
