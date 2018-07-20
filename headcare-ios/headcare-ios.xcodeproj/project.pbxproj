@@ -34,6 +34,7 @@
 		04C3B5522101CC2C0032917B /* headcare06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04C3B5422101CC2C0032917B /* headcare06.jpg */; };
 		04C3B5532101CC2C0032917B /* headcare16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04C3B5432101CC2C0032917B /* headcare16.jpg */; };
 		04C3B5552101CCC60032917B /* temp.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C3B5542101CCC60032917B /* temp.png */; };
+		04C3B55A2101E3C10032917B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B5592101E3C10032917B /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,8 @@
 		04C3B5422101CC2C0032917B /* headcare06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headcare06.jpg; sourceTree = "<group>"; };
 		04C3B5432101CC2C0032917B /* headcare16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headcare16.jpg; sourceTree = "<group>"; };
 		04C3B5542101CCC60032917B /* temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = temp.png; path = "headcare-ios/temp.png"; sourceTree = SOURCE_ROOT; };
+		04C3B5562101E2530032917B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04C3B5592101E3C10032917B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,8 @@
 				04C3B5082101C60F0032917B /* LaunchScreen.storyboard */,
 				04C3B50B2101C60F0032917B /* Info.plist */,
 				04C3B50C2101C60F0032917B /* main.m */,
+				04C3B5562101E2530032917B /* ViewController.h */,
+				04C3B5592101E3C10032917B /* ViewController.m */,
 			);
 			path = "headcare-ios";
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				04C3B4FC2101C60E0032917B /* AppDelegate.m in Sources */,
 				04C3B50D2101C60F0032917B /* main.m in Sources */,
 				04C3B4FF2101C60E0032917B /* FirstViewController.m in Sources */,
+				04C3B55A2101E3C10032917B /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
